@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "testrecord/";
+
+package protobuf_to_disk;
+
+message TestRecord {
+    string firstname = 1;
+    string lastname = 2;
+    int32 age = 3;
+}
